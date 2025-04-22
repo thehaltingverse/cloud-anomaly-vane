@@ -1,4 +1,5 @@
 #Cloud Anomaly Vane
+<<<<<<< HEAD
 # 🌫️ cloud-anomaly-vane
 
 *A poetic + philosophical exploration of machine learning for anomaly detection in cloud environments.*
@@ -25,3 +26,5 @@ This project serves as a creative and technical sandbox for experimentation, mod
 ## 🗂️ Project Structure
 
 
+=======
+>>>>>>> a38f62aac2ac059cac98097e855672d5932b7c32
