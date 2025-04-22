@@ -22,4 +22,22 @@ This project serves as a creative and technical sandbox for experimentation, mod
 ---
 
 ## 🗂️ Project Structure
-```text cloud-anomaly-vane/ ├── README.md # Project overview and guidance ├── requirements.txt # Python dependencies ├── .gitignore # Files and directories to exclude from version control ├── data/ # External data sources (not tracked by Git) │ ├── raw/ # Unprocessed, original data │ └── processed/ # Cleaned and transformed data ├── notebooks/ # Jupyter notebooks for experimentation │ └── 00_baseline.ipynb ├── src/ # Core source code modules │ ├── __init__.py │ ├── data_loader.py # Data ingestion and utilities │ ├── models.py # Model definitions │ ├── train.py # Training logic │ └── evaluate.py # Model evaluation ├── scripts/ # Helper scripts for automation or command-line tools └── tests/ # (Optional) Unit tests for code validation ```
+```text
+text cloud-anomaly-vane/
+├── README.md # Project overview and guidance
+├── requirements.txt # Python dependencies
+├── .gitignore # Files and directories to exclude from version control
+├── data/ # External data sources (not tracked by Git)
+│ ├── raw/ # Unprocessed, original data 
+│ └── processed/ # Cleaned and transformed data 
+├── notebooks/ # Jupyter notebooks for experimentation 
+│ └── 00_baseline.ipynb 
+├── src/ # Core source code modules 
+│ ├── __init__.py 
+│ ├── data_loader.py # Data ingestion and utilities 
+│ ├── models.py # Model definitions 
+│ ├── train.py # Training logic 
+│ └── evaluate.py # Model evaluation 
+├── scripts/ # Helper scripts for automation or command-line tools 
+└── tests/ # (Optional) Unit tests for code validation
+```
