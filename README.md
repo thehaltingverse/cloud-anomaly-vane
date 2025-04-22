@@ -23,6 +23,7 @@ This project serves as a creative and technical sandbox for experimentation, mod
 
 ## 🗂️ Project Structure
 cloud-anomaly-vane/
+
 ├── README.md            # Project overview and guidance
 ├── requirements.txt     # Python dependencies
 ├── .gitignore           # Files and directories to exclude from version control
