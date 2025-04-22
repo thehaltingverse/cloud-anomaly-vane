@@ -1,8 +1,6 @@
-#Cloud Anomaly Vane
-<<<<<<< HEAD
 # 🌫️ cloud-anomaly-vane
 
-*A poetic + philosophical exploration of machine learning for anomaly detection in cloud environments.*
+*An exploration of machine learning for anomaly detection in cloud environments.*
 
 ---
 
@@ -24,7 +22,24 @@ This project serves as a creative and technical sandbox for experimentation, mod
 ---
 
 ## 🗂️ Project Structure
+cloud-anomaly-vane/
+├── README.md            # Project overview and guidance
+├── requirements.txt     # Python dependencies
+├── .gitignore           # Files and directories to exclude from version control
 
+├── data/                # External data sources (not tracked by Git)
+│   ├── raw/             # Unprocessed, original data
+│   └── processed/       # Cleaned and transformed data
 
-=======
->>>>>>> a38f62aac2ac059cac98097e855672d5932b7c32
+├── notebooks/           # Jupyter notebooks for experimentation
+│   └── 00_baseline.ipynb
+
+├── src/                 # Core source code modules
+│   ├── __init__.py
+│   ├── data_loader.py   # Data ingestion and utilities
+│   ├── models.py        # Model definitions
+│   ├── train.py         # Training logic
+│   └── evaluate.py      # Model evaluation
+
+├── scripts/             # Helper scripts for automation or command-line tools
+└── tests/               # (Optional) Unit tests for code validation
